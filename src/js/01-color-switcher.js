@@ -1,5 +1,5 @@
-const btnStart = document.querySelector('button[data-start]'),
-  btnStop = document.querySelector('button[data-stop]');
+const btnStart = document.querySelector('button[data-start]');
+const btnStop = document.querySelector('button[data-stop]');
 let r = 0;
 function changeColor() {
   document.body.style.backgroundColor = `#${Math.floor(
