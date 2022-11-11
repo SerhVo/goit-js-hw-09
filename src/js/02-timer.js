@@ -2,10 +2,12 @@ import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
 import Notiflix from 'notiflix';
 
+const body = document.querySelector('body');
 const timer = document.querySelector('.timer');
 const field = document.querySelectorAll('.field');
 const value = document.querySelectorAll('.value');
 
+body.style.backgroundColor = 'aquamarine';
 timer.style.display = 'flex';
 timer.style.gap = '20px';
 
