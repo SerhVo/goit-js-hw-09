@@ -41,7 +41,7 @@ const options = {
   defaultDate: new Date(),
   minuteIncrement: 1,
   onClose(selectedDates) {
-    console.log(selectedDates[0]);
+    // console.log(selectedDates[0]);
 
     if (selectedDates[0] < new Date()) {
       refs.start.disabled = true;
