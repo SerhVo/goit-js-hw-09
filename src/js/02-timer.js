@@ -60,6 +60,7 @@ const options = {
 
         if (differenceInTime < 1000) {
           clearInterval(intervalId);
+          refs.start.disabled = true;
         }
         const result = convertMs(differenceInTime);
         viewOfTimer(result);
